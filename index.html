@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caja con HTML y CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- PORTADA -->
+    <header class="caja">
+        <h1>MODELO DE CAJA CON HTML Y CSS</h1>
+    </header>
+
+    <nav>
+        <a href="#ejercicio1" class="caja">Ejercicio 1</a>
+        <a href="#ejercicio2" class="caja">Ejercicio 2</a>
+        <a href="#ejercicio3" class="caja">Ejercicio 3</a>
+    </nav>
+
+    <main class="caja">
+        <p>
+            Las cajas en HTML y CSS forman parte del modelo de caja (Box Model),
+            que permite organizar y dar estilo a los elementos de una página web.
+        </p>
+    </main>
+
+    <footer class="caja">
+        <p>Nombre y Apellido: Nilton Carrasco Ramos</p>
+    </footer>
+
+    <!-- EJERCICIO 1 -->
+    <section id="ejercicio1">
+        <h2>Ejercicio 1: Tarjetas</h2>
+
+        <section class="tarjetas">
+
+            <article class="tarjeta">
+                <p>
+                    Este es un texto con una palabra
+                    <span>importante</span>.
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <p>
+                    Aprendiendo HTML y CSS con mucho
+                    <span>estilo</span>.
+                </p>
+            </article>
+
+            <article class="tarjeta">
+                <p>
+                    Las cajas permiten mejor
+                    <span>organización</span>.
+                </p>
+            </article>
+
+        </section>
+    </section>
+
+    <!-- EJERCICIO 2 -->
+    <section id="ejercicio2">
+        <h2>Ejercicio 2: Caja de Contenido</h2>
+
+        <section class="contenido">
+            <div>
+
+                <article class="caja">
+                    <p>
+                        Este es el primer párrafo del artículo principal.
+                    </p>
+                    <br>
+
+                    <p>
+                        Este es el segundo párrafo con mejor distribución del contenido.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+    </section>
+
+    <!-- EJERCICIO 3 -->
+    <section id="ejercicio3">
+        <h2>Ejercicio 3: Estructura Web</h2>
+
+        <header class="caja">
+            <h3>Mi Sitio Web</h3>
+        </header>
+
+        <nav class="caja">
+            <p>Inicio | Servicios | Contacto</p>
+        </nav>
+
+        <section>
+
+            <article class="caja">
+                <h3>Contenido Principal</h3>
+                <p>
+                    Aquí va la información más importante de la página.
+                </p>
+            </article>
+
+            <aside class="caja">
+                <h3>Barra Lateral</h3>
+                <p>
+                    Información adicional aquí.
+                </p>
+            </aside>
+
+        </section>
+
+        <footer class="caja">
+            <p>Derechos Reservados 2026</p>
+        </footer>
+    </section>
+
+</body>
+</html>
